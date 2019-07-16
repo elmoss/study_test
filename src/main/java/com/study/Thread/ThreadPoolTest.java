@@ -20,6 +20,16 @@ public class ThreadPoolTest {
     volatile int finishState = 0;
     static String lock = "true";
 
+    /**
+     *
+     * @throws InterruptedException
+     * @throws ExecutionException
+     * 首先使用corePoolSize 核心线程，
+     * 当线程数大于corePoolSize ，小于maximumPoolSize，会使用LinkedBlockingDeque的空闲线程
+     * 当空闲线程也被占满了，开始增加poolSize，直到maximumPoolSize数，
+     * 当大于maximumPoolSize数，执行拒绝策略
+     */
+
 
     @Test
     public void test4() throws InterruptedException, ExecutionException {
