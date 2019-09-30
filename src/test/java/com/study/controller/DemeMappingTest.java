@@ -30,7 +30,7 @@ public class DemeMappingTest {
         l.info("jdk log");
         //log4j
         org.apache.log4j.Logger logger1 = org.apache.log4j.Logger.getLogger("s");
-        PropertyConfigurator.configure(new URL(""));
+        //PropertyConfigurator.configure(new URL(""));
         logger1.info("message info");
     }
 
