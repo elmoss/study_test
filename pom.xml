@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <org.springframework.version>4.3.7.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.20.RELEASE</org.springframework.version>
         <jetty.version>7.2.2.v20101205</jetty.version>
         <slf4j.version>1.7.25</slf4j.version>
         <!-- log4j2 -->
